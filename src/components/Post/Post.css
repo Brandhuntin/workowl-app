@@ -1,0 +1,20 @@
+.main {
+	display: flex;
+	flex-direction: column;
+
+	background-color: black;
+	width: 40%;
+}
+.post-heading {
+	background-color: red;
+	transform: translateY(3rem);
+	width: 300px;
+	margin-left: 20px;
+	border-radius: 10px;
+}
+.post-body {
+	background-color: green;
+}
+.post-button {
+	background-color: blue;
+}

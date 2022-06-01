@@ -1,20 +1,72 @@
 .main {
 	display: flex;
 	flex-direction: column;
-
-	background-color: black;
-	width: 40%;
+	width: 55%;
+	margin-left: 300px;
+	margin-top: 80px;
 }
 .post-heading {
-	background-color: red;
-	transform: translateY(3rem);
-	width: 300px;
-	margin-left: 20px;
+	background-color: #d3d1ee;
+	transform: translateY(1rem);
+	width: 45%;
+	margin-left: 1.2rem;
 	border-radius: 10px;
+	height: 3rem;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+.post-heading p {
+	font-weight: 600;
+	font-size: 1.4rem;
+	color: #034683;
 }
 .post-body {
-	background-color: green;
+	outline: none;
+	-moz-box-shadow: inset 0 0 5px #000000;
+	-webkit-box-shadow: inset 0 0 5px #000000;
+	box-shadow: inset 0 0 5px #000000;
+	border-radius: 10px;
+	width: 100%;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	padding: 10px;
+}
+#post {
+	padding: 15px;
+	padding-top: 35px;
+	padding-left: 30px;
+	border: none;
+	outline: none;
+	border-radius: 5px;
+	font-size: 1.2rem;
+}
+
+.chat-image {
+	width: 20rem;
+	height: 20rem;
 }
 .post-button {
-	background-color: blue;
+	margin-left: 1.2rem;
+	transform: translateY(-1rem);
+}
+.post-submit {
+	padding-top: 0.5rem;
+	padding-bottom: 0.5rem;
+	padding-left: 2rem;
+	padding-right: 2rem;
+	background-color: #a055ff;
+	font-size: 1.2rem;
+	color: white;
+	font-weight: 700;
+	letter-spacing: 0.5px;
+	border: none;
+	outline: none;
+	border-radius: 0.35rem;
+	cursor: pointer;
+	transition: 0.3s;
+}
+.post-submit:hover {
+	background-color: #a668f8;
 }

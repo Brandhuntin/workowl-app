@@ -9,7 +9,7 @@ import Circle from "../../media/Circle.svg";
 function SideBar() {
 	const [expand, setExpand] = useState(false);
 	return (
-		<div>
+		<div className='sidebar-body'>
 			<div className={expand ? "container" : "expander"} id='navbar'>
 				<nav className='nav'>
 					<div>

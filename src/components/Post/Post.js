@@ -12,8 +12,6 @@ function Post() {
 				<textarea
 					id='post'
 					name='post'
-					rows='7'
-					cols='45'
 					placeholder='Post a deal, or share whatever you feel here'
 				/>
 				<img src={Chat} alt='chat' className='chat-image' />

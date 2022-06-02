@@ -1,20 +1,18 @@
 :root {
 	--nav-width: 103px;
-
 	/* === Colors === */
 	--primary-color: #9f77ee;
 	/* --bg-color: #12192c; */
 	--bg-color: #d5d3ed;
 	--sub-color: #b6cefc;
 	--white-color: #ffff;
-
 	--body-font: "Poppins", sans-serif;
 	--normal-font-size: 1.7rem;
 	--small-font-size: 1.3rem;
 	--z-fixed: 100;
 }
 
-body {
+.sidebar-body {
 	position: relative;
 	margin: 0;
 	padding: 2rem 0 0 6.2rem;
@@ -148,4 +146,19 @@ li {
 .rotate {
 	transform: rotate(180deg);
 	transition: 5s;
+}
+
+@media only screen and (max-width: 650px) {
+	.expander {
+		width: 103px;
+		position: fixed;
+		top: 0;
+		left: 0;
+		height: 100vh;
+		padding: 1.5rem 1.5rem 2rem;
+		background-color: var(--bg-color);
+		color: var(--white-color);
+		transition: 0.5s;
+		z-index: var(--z-fixed);
+	}
 }

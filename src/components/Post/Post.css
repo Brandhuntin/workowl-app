@@ -2,7 +2,8 @@
 	display: flex;
 	flex-direction: column;
 	width: 55%;
-	margin-left: 300px;
+	/* margin-left: 23rem; */
+	margin-left: 25%;
 	margin-top: 80px;
 }
 .post-heading {
@@ -32,6 +33,7 @@
 	flex-direction: row;
 	justify-content: space-between;
 	padding: 10px;
+	height: 17rem;
 }
 #post {
 	padding: 15px;
@@ -41,13 +43,16 @@
 	outline: none;
 	border-radius: 5px;
 	font-size: 1.2rem;
+	width: 30rem;
+	height: 15rem;
 }
 
 .chat-image {
-	width: 20rem;
-	height: 20rem;
+	width: 15rem;
+	height: 15rem;
 }
 .post-button {
+	/* background-color: blue; */
 	margin-left: 1.2rem;
 	transform: translateY(-1rem);
 }
@@ -69,4 +74,12 @@
 }
 .post-submit:hover {
 	background-color: #a668f8;
+}
+
+/* media query */
+@media only screen and (max-width: 650px) {
+	.chat-image {
+		width: 10rem;
+		height: 10rem;
+	}
 }

@@ -34,7 +34,7 @@ header .stuff {
 	width: 0;
 	margin: 0 10px;
 	flex: 1 0 auto;
-	margin-left: 305px;
+	margin-left: 40%;
 }
 input[type="search"] {
 	background: #e6e6e6 no-repeat 13px 13px;
@@ -43,7 +43,6 @@ input[type="search"] {
 	width: 70%;
 	line-height: 19px;
 	padding: 12px;
-
 	border-radius: 5px;
 	text-align: left;
 	font-size: 14px;

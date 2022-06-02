@@ -1,6 +1,6 @@
 import React from "react";
 import "./Header.css";
-import Bell from "../../media/bell.svg";
+import Bell from "../../../media/bell.svg";
 
 function Header() {
 	return (

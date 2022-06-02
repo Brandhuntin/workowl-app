@@ -1,6 +1,6 @@
 import React from "react";
 import "./Post.css";
-import Chat from "../../media/quick_chat_.svg";
+import Chat from "../../../media/quick_chat_.svg";
 
 function Post() {
 	return (

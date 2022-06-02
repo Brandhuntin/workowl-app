@@ -1,7 +1,7 @@
 import React from "react";
 import "./ViewItem.css";
-import Send from "../../media/send.svg";
-import View from "../../media/view.svg";
+import Send from "../../../media/send.svg";
+import View from "../../../media/view.svg";
 
 function ViewItem() {
 	return (

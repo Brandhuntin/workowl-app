@@ -1,8 +1,8 @@
 import React from "react";
-import Header from "./components/Header/Header";
-import SideBar from "./components/SideBar/SideBar";
-import Post from "./components/Post/Post";
-import View from "./components/View/View";
+import Header from "./components/Dashboard/Header/Header";
+import SideBar from "./components/Dashboard/SideBar/SideBar";
+import Post from "./components/Dashboard/Post/Post";
+import View from "./components/Dashboard/View/View";
 
 function App() {
 	return (

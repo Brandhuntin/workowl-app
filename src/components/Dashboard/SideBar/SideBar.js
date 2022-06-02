@@ -1,10 +1,9 @@
 import React, { useState } from "react";
 import "./SideBar.css";
-import hamburger from "../../media/hamburger.svg";
-import users from "../../media/users.svg";
-import chat from "../../media/message-square.svg";
-import profile from "../../media/user.svg";
-import Circle from "../../media/Circle.svg";
+import hamburger from "../../../media/hamburger.svg";
+import users from "../../../media/users.svg";
+import chat from "../../../media/message-square.svg";
+import profile from "../../../media/user.svg";
 //container
 function SideBar() {
 	const [expand, setExpand] = useState(false);

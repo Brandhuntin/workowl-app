@@ -1,6 +1,6 @@
 import React from "react";
 import "./Post.css";
-import Chat from "../../../media/quick_chat_.svg";
+import owl from "../../../media/owl.svg";
 
 function Post() {
 	return (
@@ -14,7 +14,7 @@ function Post() {
 					name='post'
 					placeholder='Post a deal, or share whatever you feel here'
 				/>
-				<img src={Chat} alt='chat' className='chat-image' />
+				<img src={owl} alt='chat' className='chat-image' />
 			</div>
 			<div className='post-button'>
 				<button className='post-submit'>Submit</button>

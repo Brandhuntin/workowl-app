@@ -5,7 +5,7 @@
 	flex-direction: column;
 	background-color: #d3d1ee;
 	outline: none;
-	padding: 0.5rem;
+	padding: 2rem;
 	border-radius: 10px;
 }
 .item-content {
@@ -15,7 +15,7 @@
 	border-radius: 10px;
 	background-color: white;
 	outline: none;
-	padding: 0.5rem;
+	padding: 1rem;
 }
 
 p {
@@ -60,27 +60,7 @@ p {
 	font-size: 1rem;
 }
 
-.send-message {
-	padding-top: 0.5rem;
-	padding-bottom: 0.5rem;
-	padding-left: 1.5rem;
-	padding-right: 1.5rem;
-	background-color: #a055ff;
-	font-size: 1rem;
-	color: white;
-	font-weight: 700;
-	letter-spacing: 0.5px;
-	border: none;
-	outline: none;
-	border-radius: 0.35rem;
-	cursor: pointer;
-	transition: 0.3s;
-	margin-left: 0.5rem;
-	margin-top: 0.5rem;
-	text-align: center;
-}
-
-.view-profile {
+.item-button {
 	padding-top: 0.5rem;
 	padding-bottom: 0.5rem;
 	padding-left: 1.5rem;
@@ -103,4 +83,59 @@ p {
 .item-icon {
 	width: 1rem;
 	height: 1rem;
+}
+
+@media only screen and (max-width: 650px) {
+	.item-container {
+		display: flex;
+		flex-direction: column;
+		background-color: #d3d1ee;
+		outline: none;
+		padding: 1rem;
+		border-radius: 5px;
+	}
+	p {
+		font-size: 0.7rem;
+		margin: 0;
+		font-family: "Poppins", sans-serif;
+	}
+	.item-posted-time {
+		margin-right: 0.7rem;
+	}
+
+	.item-name {
+		font-weight: 600;
+		font-size: 1rem;
+	}
+
+	.item-details {
+		font-size: 0.7rem;
+	}
+	.item-profile-pic {
+		width: 2.5rem;
+		height: 2.5rem;
+		border-radius: 50%;
+		background-color: red;
+		margin-right: 1rem;
+		margin-left: 0.5rem;
+	}
+	.item-button {
+		padding-top: 0.3rem;
+		padding-bottom: 0.3rem;
+		padding-left: 1.2rem;
+		padding-right: 1.2rem;
+		background-color: #a055ff;
+		font-size: 0.7rem;
+		color: white;
+		font-weight: 700;
+		letter-spacing: 0.3px;
+		border: none;
+		outline: none;
+		border-radius: 0.35rem;
+		cursor: pointer;
+		transition: 0.3s;
+		margin-left: 0.5rem;
+		margin-top: 0.5rem;
+		text-align: center;
+	}
 }

@@ -23,10 +23,10 @@ function ViewItem({ post }) {
 				<p>{post.content}</p>
 			</div>
 			<div className='item-buttons'>
-				<button className='send-message'>
+				<button className='item-button send-message'>
 					<img src={Send} alt='item-icons' className='item-icon' /> send message
 				</button>
-				<button className='view-profile'>
+				<button className='item-button view-profile'>
 					<img src={View} alt='item-icons' className='item-icon' /> view profile
 				</button>
 			</div>

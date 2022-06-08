@@ -4,6 +4,7 @@ import hamburger from "../../../media/hamburger.svg";
 import users from "../../../media/users.svg";
 import chat from "../../../media/message-square.svg";
 import profile from "../../../media/user.svg";
+import home from "../../../media/home.svg";
 //container
 function SideBar() {
 	const [expand, setExpand] = useState(false);
@@ -27,6 +28,12 @@ function SideBar() {
 						</div>
 					</div>
 					<ul>
+						<li>
+							<a href='#' className='nav_link'>
+								<img src={home} alt='home' className='logo' />
+								<span className='nav_name'>Home</span>
+							</a>
+						</li>
 						<li>
 							<a href='#' className='nav_link'>
 								<img src={users} alt='friends' className='logo' />

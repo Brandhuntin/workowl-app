@@ -1,0 +1,49 @@
+@import url("https://fonts.googleapis.com/css2?family=Outfit&display=swap");
+
+.landing-main {
+	margin-top: 10%;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+	padding: 0 5rem 5rem 5rem;
+}
+.main-logo {
+	width: 27rem;
+	height: 27rem;
+	cursor: none;
+}
+.landing-buttons button {
+	font-family: "Outfit";
+	font-weight: 700;
+	font-size: 1.5rem;
+	border: none;
+	border-radius: 20px;
+	box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.25),
+		inset 4px 4px 4px rgba(0, 0, 0, 0.25);
+	color: white;
+}
+.landing-join {
+	margin-top: 1.5rem;
+	margin-bottom: 1.5rem;
+	margin-left: 8rem;
+	color: #ffba00;
+}
+.landing-text {
+	font-family: "Outfit";
+	font-size: 3rem;
+	color: white;
+	width: 60%;
+	font-weight: 700;
+	line-height: 4rem;
+	letter-spacing: 2px;
+}
+.freelancer {
+	background-color: #ffba00;
+	padding: 0.7rem 3.5rem 0.7rem 3.5rem;
+	margin-right: 1rem;
+}
+.hire-talent {
+	background: #b080f2;
+
+	padding: 0.7rem 3.5rem 0.7rem 3.5rem;
+}

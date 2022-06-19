@@ -46,6 +46,7 @@ a {
 	color: var(--white-color);
 	transition: 0.5s;
 	z-index: var(--z-fixed);
+	background-color: rgb(14, 13, 13);
 }
 
 .nav {
@@ -124,6 +125,7 @@ li {
 	color: var(--white-color);
 	transition: 0.5s;
 	z-index: var(--z-fixed);
+	background-color: rgb(14, 13, 13);
 }
 .circles {
 	width: 590.31px;

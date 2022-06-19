@@ -1,0 +1,29 @@
+@import url("https://fonts.googleapis.com/css2?family=Outfit&display=swap");
+.middleRectangle {
+	font-size: 1.7rem;
+	font-weight: 600;
+	color: white;
+	display: inline-block;
+	font-family: "Outfit";
+	padding: 0.8rem;
+	border-radius: 20% 20% 20% 20% / 25% 25% 25% 25%;
+	margin: 1rem 1rem;
+	background: #9073fd;
+	border: 1px solid #9073fd;
+	box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.25),
+		inset 4px 4px 4px rgba(0, 0, 0, 0.25);
+}
+.noBackgroundRectangle {
+	font-size: 2.2rem;
+	font-weight: 600;
+	color: white;
+	display: inline-block;
+	font-family: "Outfit";
+	padding: 0.8rem;
+	border-radius: 20% 20% 20% 20% / 25% 25% 25% 25%;
+	margin: 1rem 1rem;
+}
+.voilet {
+	display: inline;
+	color: #9073fd;
+}

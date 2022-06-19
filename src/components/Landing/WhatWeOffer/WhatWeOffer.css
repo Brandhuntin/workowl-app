@@ -1,0 +1,23 @@
+@import url("https://fonts.googleapis.com/css2?family=Outfit&display=swap");
+
+.WhatWeOffer-purple {
+	text-align: center;
+	font-family: "Outfit";
+	color: white;
+	background: linear-gradient(
+		45deg,
+		#dabdff 17.17%,
+		#dabdff 18.41%,
+		#c4a7fe 30.42%,
+		#9073fd 58.58%
+	);
+	padding: 1rem 0.7rem 2rem 0.7rem;
+	font-weight: 700;
+	font-size: 4rem;
+}
+.WhatWeOffer-img {
+	background: url(../../../media/profile.png);
+	background-size: cover;
+	height: 1080px;
+	background-repeat: no-repeat;
+}

@@ -1,0 +1,43 @@
+@import url("https://fonts.googleapis.com/css2?family=Outfit&display=swap");
+
+.ContactUs-container {
+	color: white;
+	font-family: "Outfit";
+	border: 3px solid #ffba00;
+	border-radius: 20px;
+	background-color: #2e2e2e;
+	padding: 1.2rem;
+	margin: 0 2rem;
+}
+.ContactUs-Heading {
+	font-size: 2.5rem;
+	font-weight: 600;
+	text-align: center;
+	letter-spacing: 1px;
+}
+.ContactUs-Heading span {
+	color: violet;
+}
+.ContactUs-Links {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	font-size: 1.5rem;
+}
+.ContactUs-Emails {
+	margin-left: 1.5rem;
+}
+.EmailUs-Heading {
+	font-size: 1.6rem;
+}
+hr {
+	background-color: #9073fd;
+	height: 5px;
+	border: none;
+	margin: 0 3.5rem 1rem 3.5rem;
+}
+.ContactUs-PrivacyPolices {
+	text-align: right;
+	margin-right: 5rem;
+	font-size: 1.2rem;
+}

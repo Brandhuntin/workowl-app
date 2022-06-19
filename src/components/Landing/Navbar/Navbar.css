@@ -1,0 +1,61 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+
+.navbar {
+	display: flex;
+	justify-content: space-between;
+	width: 100%;
+	background-color: white;
+	position: absolute;
+	top: 0;
+	left: 0;
+	height: 5rem;
+}
+a {
+	text-decoration: none;
+	color: black;
+}
+.navbar-home ul {
+	display: flex;
+	flex-direction: row;
+	list-style: none;
+}
+.navbar-buttons ul {
+	display: flex;
+	flex-direction: row;
+	list-style: none;
+}
+.navbar-home ul li {
+	margin-left: 2rem;
+	font-family: "Roboto", sans-serif;
+	font-size: 1.4rem;
+	font-weight: 600;
+	line-height: 41px;
+	letter-spacing: 0em;
+	text-align: center;
+}
+.navbar-buttons ul li {
+	margin-right: 1rem;
+	font-family: "Roboto", sans-serif;
+	font-size: 1.4rem;
+	font-weight: 500;
+	line-height: 41px;
+	letter-spacing: 0em;
+	text-align: center;
+}
+.navbar-buttons ul li button {
+	padding: 0.7rem 1.2rem 0.7rem 1.2rem;
+	font-size: 1.2rem;
+	border: none;
+	border-radius: 10px;
+	box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.25),
+		inset 4px 4px 4px rgba(0, 0, 0, 0.25);
+}
+.joinbutton {
+	background-color: rgb(23, 4, 4);
+	color: #ffba00;
+	margin-left: 1rem;
+}
+.signinbutton {
+	color: white;
+	background-color: #a055ff;
+}
